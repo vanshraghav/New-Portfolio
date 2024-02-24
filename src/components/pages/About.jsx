@@ -40,6 +40,8 @@ const About = () => {
         <img src="assets/icons/javascript.svg" alt="" />
         <img src="assets/icons/html.svg" alt="" />
         <img src="assets/icons/css.svg" alt="" />
+        <img src="assets/icons/django.svg" alt="" />
+        <img src="assets/icons/flask.svg" alt="" />
         <img src="assets/icons/react.svg" alt="" />
         <img src="assets/icons/nodejs.svg" alt="" />
         <img src="assets/icons/express.svg" alt="" />
