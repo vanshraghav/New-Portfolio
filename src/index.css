@@ -1,0 +1,29 @@
+:root{
+    --bg_color: linear-gradient(to right, #F9F0FE, #DFCCE8);
+    --heading_color:  #494b53;
+    --bg_circle: #A177B4;
+    --border: #b888cf;
+    --border_color: #494B53;
+    --icon-color: #8835d1;
+    --nav_link_hover: linear-gradient(90deg, #d3abe5 0%, #A177B4 100%);
+}
+
+[data-theme = 'light'] {
+    --bg_color: linear-gradient(to right, #F9F0FE, #DFCCE8);
+    --heading_color:  #494b53;
+    --bg_circle: #A177B4;
+    --border: #b888cf;
+    --border_color: #494B53;
+    --icon-color: #8835d1;
+    --nav_link_hover: linear-gradient(90deg, #d3abe5 0%, #A177B4 100%);
+}
+
+[data-theme = 'dark'] {
+    --bg_color: linear-gradient(to right, #121212, #222325);
+    --heading_color:  #e7e7e7;
+    --bg_circle: #7a5acd;
+    --border: #eeececa0;
+    --border_color: #eeececa0;
+    --icon-color: #e7e7e7;
+    --nav_link_hover:linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+}

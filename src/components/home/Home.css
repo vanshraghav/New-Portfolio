@@ -1,0 +1,246 @@
+.home{
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: auto 14rem;
+}
+
+
+.home::after, 
+.home::before{
+  content: ' ';
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+  background: var(--bg_circle);
+  position: absolute;
+  z-index: 1;
+  filter: blur(0px);
+  opacity: 0.8;
+}
+.home::after{
+  top: 2rem;
+  left: 5rem;
+}
+.home::before{
+  bottom: 2rem;
+  right: 0rem;
+}
+
+#about{
+    grid-column: span 2;
+    position: relative;
+}
+#tech{
+    grid-column: span 3;
+    cursor: default;
+}
+
+.card{
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 2;
+    transition: transform 0.5s ease-in-out;
+}
+.card.rise{
+    transform: translateY(-50px);
+}
+.card:hover{
+    box-shadow: 0px 3px 5px -1px rgba(115,115,115,0.5);
+}
+
+#about h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.img_box{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+}
+.img_box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.desc{
+    font-size: 1rem;
+    color: var(--heading-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.desc span{
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+}
+.desc span i{
+    font-size: 2.5rem;
+}
+
+.card h2{
+    font-size: 1.8rem;
+}
+.card i{
+    font-size: 4rem;
+}
+
+ 
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}  
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: fadeUpAnimation 0.8s ease-in forwards;
+  }
+  
+  @keyframes fadeUpAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+.zoom-in {
+    opacity: 0;
+    transform: scale(0.8); 
+    animation: zoomInAnimation 0.5s ease-in forwards;
+  }
+  
+  @keyframes zoomInAnimation {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1); 
+    }
+  }
+  
+
+@media (max-width: 1200px) {
+    .home {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-rows: auto 12.5rem auto;
+    }
+
+    #about{
+        grid-column: span 3;
+    }
+    #tech{
+        grid-column: span 3;
+    }
+
+    .icons{
+        padding: 0;
+    }
+    .card{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 30px;
+        height: auto;
+        padding: 1.5rem;
+      }
+    
+}
+
+@media (max-width: 768px){
+    .home{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    #about{
+        grid-column: span 4;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #about .img_box{
+        margin-bottom: -10px;
+    }
+
+    #resume{
+        grid-column: span 4;
+    }
+
+    #project{
+        grid-column: span 4;
+    }
+
+    #contact{
+        grid-column: span 4;
+    }
+    #tech{
+        grid-column: span 4;
+        flex-direction: column;
+    }
+
+    .icons {
+        justify-content: flex-start;
+        padding: 1.4rem 0 0 0;
+    }
+    .icons img {
+        width: 35px;
+        height: 35px;
+    }
+    #about h2{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .desc{
+        font-size: 0.8rem;
+    }
+    .desc span{
+        right: 1rem;
+        bottom: 1rem;
+    }
+    .card{
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        height: auto;
+        padding: 1rem 1.3rem;
+      }
+      .card h2{
+        font-size: 1.5rem;
+      }
+
+      .card i{
+        font-size: 3.5rem;
+    }
+    .desc span i{
+        font-size: 2.2rem;
+    }
+    .home::after,
+    .home::before{
+    width: 14rem;
+    height: 14rem;
+    } 
+}
+
+

@@ -1,0 +1,29 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 4rem;
+}
+.about p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .main-heading{
+        font-size: 3.5rem;
+    }
+    .about p{
+        font-size: 1.4rem;
+    }
+    .icons img {
+        width: 45px;
+        height: 45px;
+    }
+}

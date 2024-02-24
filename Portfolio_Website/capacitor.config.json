@@ -1,0 +1,11 @@
+{
+  "appId": "com.example.com",
+  "appName": "Portfolio",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

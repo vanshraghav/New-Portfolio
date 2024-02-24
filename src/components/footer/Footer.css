@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer .social-icon a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--icon-color);
+}
+.footer .social-icon i{
+    font-size: 1.8rem;
+
+}
+.footer .social-icon a:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transition: all .5s;
+}
+
+.footer .line p{
+  word-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.footer .line p span i{
+    color: rgb(223, 23, 50);
+    font-size: 1.4rem;
+    cursor: pointer;
+  }

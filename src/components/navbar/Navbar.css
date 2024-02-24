@@ -1,0 +1,171 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    padding: 1rem 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+nav .logo a{
+   text-decoration: none;
+   color: var(--heading_color);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    margin: 0 1.5rem;
+}
+.menu-item{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--heading_color);
+    transition: 0.3s ease-in-out;
+}
+.menu-item a{
+    text-decoration: none;
+    color: var(--heading_color)
+}
+.menu-item::before{
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: var(--nav_link_hover);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+.menu-item:hover::before{
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* mobile navbar */
+
+#mobile{
+    display: none;
+}
+#mobile i{
+    font-size: 1.5rem;
+}  
+.mobile_toggle{
+    display: flex;
+    gap: 30px;
+}
+
+@media (min-width: 1920px) and (max-width: 2560px){
+    nav{
+      padding: 1.5rem 20rem;
+    }
+  }
+
+@media screen and (max-width: 769px){
+    nav{
+        padding: 1rem 2rem;
+    }
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        top: 62px;
+        right: 0;   
+        width: 280px;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter:blur(50px);
+        padding: 80px;
+        transition: all 0.3s ease-in-out;
+        display: none;
+    }
+
+    #navbar.active{
+        display: block;
+    }
+
+    #mobile{
+        display: block;
+    }
+    #navbar li{
+        margin-bottom: 40px;
+    }
+    .menu-item a{
+        font-size: 1.2rem;
+        color: #303136;
+    }
+    #mobile i{
+        font-size: 1.7rem;
+        cursor: pointer;
+        font-weight: 600;
+    }
+}
+
+/* switch  */
+#checkbox {
+    position: relative;
+    appearance: none;
+    outline: none;
+    width: 4.2rem;
+    height: 30px;
+    border-radius: 20px;
+    background: #d3abe5;
+    box-shadow: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  
+  #checkbox:checked {
+    background: #654BA8;
+  }
+  
+  #checkbox::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: inherit;
+    width: 25px;
+    height: 25px;
+    background: #ffff00;
+    transition: inherit;
+  }
+  
+  #checkbox::after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: calc(100% + 30px);
+    border-radius: inherit;
+    width: 25px;
+    height: 25px;
+    background: #b6b6b6;
+    transition: inherit;
+  }
+  
+   #checkbox:checked::before {
+    left: calc(100% - 33px);
+    background: #cccccc;
+  }
+  
+   #checkbox:checked::after {
+    right: 12px;
+    background: #654BA8;
+  }
