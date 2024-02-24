@@ -37,7 +37,7 @@ const Home = () => {
 
         <div className='card' id='about' onClick={aboutClick}>
           <div className="img_box">
-            <img src="src\assets\image.png" alt="" />
+            <img src="assets/image.png" alt="" />
           </div>
           <div className="text">
             <h2> Hey, I'm Vansh </h2>
@@ -69,14 +69,14 @@ const Home = () => {
         <div className="card" id='tech'>
           <h2>Technologies I Like The Most</h2>
           <div className="icons">
-            <img src="src\assets\icons\javascript.svg" alt="" />
-            <img src="src\assets\icons\html.svg" alt="" />
-            <img src="src\assets\icons\css.svg" alt="" />
-            <img src="src\assets\icons\react.svg" alt="" />
-            <img src="src\assets\icons\nodejs.svg" alt="" />
-            <img src="src\assets\icons\express.svg" alt="" />
-            <img src="src\assets\icons\mongodb.svg" alt="" />
-            <img src="src\assets\icons\github.svg" alt="" />
+            <img src="assets/icons/javascript.svg" alt="" />
+            <img src="assets/icons/html.svg" alt="" />
+            <img src="assets/icons/css.svg" alt="" />
+            <img src="assets/icons/react.svg" alt="" />
+            <img src="assets/icons/nodejs.svg" alt="" />
+            <img src="assets/icons/express.svg" alt="" />
+            <img src="assets/icons/mongodb.svg" alt="" />
+            <img src="assets/icons/github.svg" alt="" />
           </div>
         </div>
 

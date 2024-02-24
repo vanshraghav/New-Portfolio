@@ -23,7 +23,7 @@ const Projects = () => {
        <div className="work_cards">
 
           <div className="window">
-            <img src="src\assets\11.webp" alt="" />
+            <img src="assets/11.webp" alt="" />
             <h2>Swift Courier Management</h2>
             
             <div className="languages">
@@ -42,7 +42,7 @@ const Projects = () => {
           </div>
 
           <div className="window">
-            <img src="src\assets\12.webp.webp" alt="" />
+            <img src="assets/12.webp.webp" alt="" />
             <h2>Daily News and Blogs</h2>
             
             <div className="languages">
@@ -61,7 +61,7 @@ const Projects = () => {
           </div>
 
           <div className="window">
-            <img src="src\assets\10.webp" alt="" />
+            <img src="assets/10.webp" alt="" />
             <h2>Safar</h2>
             
             <div className="languages">
@@ -80,7 +80,7 @@ const Projects = () => {
           </div>
 
           <div className="window">
-            <img src="src\assets\1.webp" alt="" />
+            <img src="assets/1.webp" alt="" />
             <h2>Tindog</h2>
             
             <div className="languages">
@@ -99,7 +99,7 @@ const Projects = () => {
           </div>
 
           <div className="window">
-            <img src="src\assets\5.webp" alt="" />
+            <img src="assets/5.webp" alt="" />
             <h2>Weather App</h2>
             
             <div className="languages">
@@ -118,7 +118,7 @@ const Projects = () => {
           </div>
 
           <div className="window">
-            <img src="src\assets\2.webp" alt="" />
+            <img src="assets/2.webp" alt="" />
             <h2>TradeG</h2>
             
             <div className="languages">
