@@ -30,7 +30,7 @@ const Resume = () => {
             <i class="ri-linkedin-line"></i> Linkedin
           </a>
           <a
-            href="src\assets\Vansh_Raghav_Resume.pdf"
+            href="assets\Vansh_Raghav_Resume.pdf"
             download="Vansh_Resume.pdf"
             onClick={showToastMessage}
           >
