@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
   const [sending, setSending] = useState(false);
   const showToastMessage = () => {
-    toast.success("Thanks for Downloading my resume...");
+    toast.success("hank you for going through my CV ....");
   };
 
   const handleSubmit = (e) => {
@@ -16,7 +16,7 @@ const Contact = () => {
     emailjs.sendForm('service_3ek5xjc', 'template_2yo4fss', e.target, 'dW3K8h0h-3ineGRPJ')
       .then((result) => {
         console.log(result.text);
-        toast.success("Message sent successfully! I will contact you soon.");
+        toast.success("I will contact you soon.");
         e.target.reset(); 
         setSending(false);
       }, (error) => {
@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="buttons info">
           <a href='https://github.com/vanshraghav' target='_blank'><i className="ri-github-line"></i> Github</a>
           <a href='https://www.linkedin.com/in/vansh-raghav-6862951b2/' target='_blank'><i className="ri-linkedin-line"></i> Linkedin</a>
-          <a href='assets/Vansh_Raghav_Resume.pdf' download='vansh_resume.pdf' onClick={showToastMessage}><i className="ri-file-chart-line"></i>Download Resume</a>
+          <a href='https://vansh-raghav-resume.tiiny.site/' download='vansh_resume.pdf' onClick={showToastMessage}><i className="ri-file-chart-line"></i>Download Resume</a>
         </div>
       </div>
 
