@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const Resume = () => {
   const showToastMessage = () => {
-    toast.success("Thanks for Downloading my resume...");
+    toast.success("Thank you for going through my CV ....");
   };
 
   return (
@@ -30,7 +30,7 @@ const Resume = () => {
             <i class="ri-linkedin-line"></i> Linkedin
           </a>
           <a
-            href="assets/VR.png" target="_blank"
+            href="https://vansh-raghav-resume.tiiny.site/" target="_blank"
             download="Vansh_Raghav_Resume.png"
             onClick={showToastMessage}
           >
