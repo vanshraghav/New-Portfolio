@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="buttons info">
           <a href='https://github.com/vanshraghav' target='_blank'><i className="ri-github-line"></i> Github</a>
           <a href='https://www.linkedin.com/in/vansh-raghav-6862951b2/' target='_blank'><i className="ri-linkedin-line"></i> Linkedin</a>
-          <a href='https://vansh-raghav-resume.tiiny.site/' download='vansh_resume.pdf' onClick={showToastMessage}><i className="ri-file-chart-line"></i>Check My CV</a>
+          <a href='https://vansh-raghav-resume.tiiny.site/' download='vansh_resume.pdf'target="_blank" onClick={showToastMessage}><i className="ri-file-chart-line"></i>Check My CV</a>
         </div>
       </div>
 
