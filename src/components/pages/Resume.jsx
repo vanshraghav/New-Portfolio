@@ -34,7 +34,7 @@ const Resume = () => {
             download="Vansh_Raghav_Resume.png"
             onClick={showToastMessage}
           >
-            <i class="ri-file-chart-line"></i> Get My Resume
+            <i class="ri-file-chart-line"></i> Check My CV
           </a>
         </div>
       </div>
