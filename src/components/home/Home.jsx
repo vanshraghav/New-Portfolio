@@ -53,7 +53,7 @@ const Home = () => {
 
         <div className="card" id='resume' onClick={resumeClick}>
           <i className="ri-file-list-3-line"></i>
-          <h2> Resume</h2>
+          <h2>Resume</h2>
         </div>
 
         <div className="card" id='project' onClick={projectClick}>
@@ -70,12 +70,12 @@ const Home = () => {
           <h2>Technologies I Like The Most</h2>
           <div className="icons">
             <img src="assets/icons/javascript.svg" alt="" />
+            <img src="assets/icons/nodejs.svg" alt="" />
             <img src="assets/icons/html.svg" alt="" />
             <img src="assets/icons/css.svg" alt="" />
             <img src="assets/icons/django.svg" alt="" />
             <img src="assets/icons/flask.svg" alt="" />
             <img src="assets/icons/react.svg" alt="" />
-            <img src="assets/icons/nodejs.svg" alt="" />
             <img src="assets/icons/express.svg" alt="" />
             <img src="assets/icons/mongodb.svg" alt="" />
             <img src="assets/icons/github.svg" alt="" />
