@@ -10,7 +10,7 @@ const Footer = () => {
          <a href="https://github.com/vanshraghav" target='_blank'><i class="ri-github-line"></i></a>
        </div>
        <div className="line">
-        <p>Made With <span><i class="ri-heart-fill"></i></span> </p>
+        <p>Made With <span><i class="ri-heart-fill"></i></span> by Vansh</p>
        </div>
     </div>
   )
