@@ -37,7 +37,7 @@ const Home = () => {
 
         <div className='card' id='about' onClick={aboutClick}>
           <div className="img_box">
-            <img src="assets/image.png" alt="" />
+            <img src="assets/self-pic.png" alt="" />
           </div>
           <div className="text">
             <h2> Hey, I'm Vansh </h2>
