@@ -49,21 +49,23 @@ const Resume = () => {
 
           <h4>Backend Developer Intern – Core Team @ KiranaPro</h4>
           <p>Remote / Jan 2025 – Present</p>
-          <ul>
-            <li>
-              Worked directly under the CEO as part of the core engineering team to develop robust backend features in a fast-paced startup environment.
-            </li>
-            <li>
-              Contributed to the design and development of scalable APIs, system architecture, and performance optimization of B2B commerce tools.
-            </li>
-            <li>
-              Played a key role in integrating AI-powered lead management and voice-based product ordering pipelines using OpenAI APIs.
-            </li>
-            <li>
-              Actively participated in sprint planning, team stand-ups, and cross-functional collaboration to deliver features on tight timelines.
-            </li>
-          </ul>
-
+           <ul>
+    <li>
+      Handled the entire backend integration of the e-commerce platform and deployed it live on the ONDC network single-handedly.
+    </li>
+    <li>
+      Developed and maintained microservices using Node.js, Express, and MongoDB to support provider onboarding, product listing, and order fulfillment workflows.
+    </li>
+    <li>
+      Implemented API integrations with ONDC protocols and ensured compliance with government-led commerce standards.
+    </li>
+    <li>
+      Managed deployment pipelines and production releases, ensuring minimal downtime and high availability.
+    </li>
+    <li>
+      Collaborated closely with the frontend and QA teams to debug critical issues and improve system reliability.
+    </li>
+  </ul>
           <h4>Full Stack Software Developer Intern</h4>
           <p>Remote / Oct 2024 - Dec 2024</p>
           <ul>
